@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormPemesanan">
+
+    <ImageView
+        android:layout_marginTop="-15dp"
+        android:id="@+id/img_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="FORM PEMESANAN"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/jurusan"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"/>
+
+    <EditText
+        android:id="@+id/noHp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Handphone"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pesanan"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lokasi/Ruangan"/>
+
+
+    <Button
+        android:id="@+id/btnTambahPesanan"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_rounded"
+        android:text="ORDER"
+        android:textSize="24dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
